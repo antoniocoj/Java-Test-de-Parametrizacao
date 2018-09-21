@@ -19,5 +19,10 @@ public class TarifaTaxiTest {
 		assertEquals(321.96f,CalcularTaxiTarifa.calculoTarifa("Bandeira 1", 100, 1), 0.00f);
 		
 	}
-
+	
+	@Test
+	public void tarifaTaxiBandeira2Test() {
+		assertEquals(178.48f,CalcularTaxiTarifa.calculoTarifa("Bandeira 2", 30, 2), 0.00f);
+		
+	}
 }
